@@ -23,6 +23,8 @@ Docker ile başlatın:
 
 bash
 docker-compose up -d
+
+
 Kontroller:
 
 Fake API: http://localhost:5001/metrics
