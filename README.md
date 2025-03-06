@@ -25,7 +25,7 @@ bash
 docker-compose up -d
 Kontroller:
 
-Fake API: http://localhost:5000/metrics
+Fake API: http://localhost:5001/metrics
 
 Prometheus: http://localhost:9090
 
