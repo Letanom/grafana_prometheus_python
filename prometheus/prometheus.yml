@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 15s # scrape veri toplamak
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+  - job_name: 'fake-api'
+    metrics_path: '/metrics'
+    static_configs:
+      - targets: ['fake-api:5001']
